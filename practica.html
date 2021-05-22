@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            EXAMEN
+        </title>
+        <meta charset="utf-8">
+        <script type="text/javascript">
+            function ejemploDoWhile(){
+                var contador=0;
+                var msg='';
+                let name=document.getElementById("name").value;
+                let car=document.getElementById("car").value;
+                do{
+                    msg=msg+'\t' + name + +(contador+1) + '\n';
+                    contador+=1;
+                }while (contador<car);
+                alert('\n'+msg);
+            }
+        </script>
+    </head>
+</html>
